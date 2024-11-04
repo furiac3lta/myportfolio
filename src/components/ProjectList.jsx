@@ -39,7 +39,7 @@ function ProjectsList() {
 
   return (
    <>
-    <h2 className="text-center py-6 text-4xl font-bold text-zinc">Check out my Portfolio</h2>
+    <h2 className="text-center py-6 text-4xl font-bold text-zinc-400 underline">Check out my Portfolio</h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
        
       {projects.map((project, index) => (
