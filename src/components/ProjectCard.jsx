@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard({ image, title, description, technologies, link }) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-400">
-      <img className="w-full h-72 object-cover" src={image} alt={title} />
+      <img className="w-full h-80 object-cover" src={image} alt={title} />
       <div className="px-6 py-4">
         <div className="text-slate-700 font-bold text-xl mb-2">{title}</div>
         <p className="text-slate-700 text-base">{description}</p>

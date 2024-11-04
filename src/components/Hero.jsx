@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="w-full ">
-        <h1 className="text-zinc-300 selection:font-proxima w-full text-center py-6 text-4xl font-bold">
+        <h1 className="animate__animated animate__bounce typing text-stone-400 selection:font-proxima w-full text-center py-6 text-4xl font-bold">
           Marcelo Colum
         </h1>
 

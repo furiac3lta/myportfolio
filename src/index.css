@@ -3,10 +3,24 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-800 text-white; 
+  @apply bg-zinc-800 text-gray-300; 
 }
 @layer base {
   html {
     font-family: "Proxima Nova", system-ui, sans-serif;
   }
+}
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #2c3e50;
+  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }

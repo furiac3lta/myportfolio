@@ -32,7 +32,7 @@ function ProjectsList() {
       image: projectImage4,
       title: "Proyecto 4",
       description: "Order tracker app.",
-      technologies: ["JavaScript", "Java", "Spring", "MySql", "Deploy" ],
+      technologies: ["React", "Java", "Spring", "MySql", "Heroku" ],
       link: "https://order-tracker-front.vercel.app/",
     },
   ];
